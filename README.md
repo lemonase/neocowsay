@@ -7,14 +7,22 @@ for GitHub Actions users: [Code-Hex/neo-cowsay-action](https://github.com/market
 [![Go Reference](https://pkg.go.dev/badge/github.com/Code-Hex/Neo-cowsay/v2.svg)](https://pkg.go.dev/github.com/Code-Hex/Neo-cowsay/v2) [![.github/workflows/main.yml](https://github.com/Code-Hex/Neo-cowsay/actions/workflows/main.yml/badge.svg)](https://github.com/Code-Hex/Neo-cowsay/actions/workflows/main.yml) [![Go Report Card](https://goreportcard.com/badge/github.com/Code-Hex/Neo-cowsay)](https://goreportcard.com/report/github.com/Code-Hex/Neo-cowsay) [![codecov](https://codecov.io/gh/Code-Hex/Neo-cowsay/branch/master/graph/badge.svg?token=WwjmyHrOPv)](https://codecov.io/gh/Code-Hex/Neo-cowsay)
 
 ```
- ______________
-< I'm Neo cows >
- --------------
-       \   ^__^
-        \  (oo)\_______
-           (__)\       )\/\
-               ||----w |
-               ||     ||
+$ cowsay -f gopher "Neo cowsay all the way"
+ ________________________ 
+< Neo cowsay all the way >
+ ------------------------ 
+    \ 
+     \    ,_---~~~~~----._         
+  _,,_,*^____      _____``*g*\"*, 
+ / __/ /'     ^.  /      \ ^@q   f 
+[  @f | @))    |  | @))   l  0 _/  
+ \`/   \~____ / __ \_____/    \   
+  |           _l__l_           I   
+  |          [______]           I  
+  |            | | |            |  
+  |             ~ ~             |  
+  |                             |   
+  |                             |
 ```
 
 ## About cowsay
@@ -29,11 +37,11 @@ of silliness.
 
 ## What makes it different from the original?
 
-- fast
+- faster than perl version
 - utf8 is supported
 - added new cowfiles
-- cowfiles in binary
-- cowfile randomization flag
+- allows cowfiles embeded in binary
+- cowfile randomization flag `--random`
 - provides command-line fuzzy finder to search any cows with `-f -` [#39](https://github.com/Code-Hex/Neo-cowsay/pull/39)
 - coloring filter options (rainbow, aurora and bold)
 - super mode (animated)
@@ -70,7 +78,9 @@ Usage: cowsay [-bdgpstwy] [-h] [-e eyes] [-f cowfile] [--random]
 Original Author: (c) 1999 Tony Monroe
 Repository: https://github.com/Code-Hex/Neo-cowsay
 ```
+
 Normal
+
 ```
 $ cowsay Hello
  _______
@@ -82,7 +92,9 @@ $ cowsay Hello
                ||----w |
                ||     ||
 ```
+
 Borg mode
+
 ```
 $ cowsay -b Hello
  _______
