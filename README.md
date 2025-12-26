@@ -202,6 +202,24 @@ not find it here, because there is no such thing here.
 
 (The Artistic License or The GNU General Public License)
 
+## Other cowsay projects
+
+- [cowsay-org/cowsay](https://github.com/cowsay-org/cowsay) - modern fork of
+  cowsay (Perl)
+- [piuccio/cowsay](https://github.com/piuccio/cowsay) - cowsay implemented in
+  JavaScript
+- [VaasuDevanS/cowsay-python](https://github.com/VaasuDevanS/cowsay-python) -
+  cowsay implemented in Python
+
+
+## Other cowfile repositories
+
+- [paulkaefer/cowsay-files](https://github.com/paulkaefer/cowsay-files/) - more
+  cowsay files
+- [bkendzior/cowfiles](https://github.com/bkendzior/cowfiles) - even more
+  cowsay files
+
 ## Author
+
 Neo Cowsay: [codehex](https://twitter.com/CodeHex)  
 Original: (c) 1999 Tony Monroe
